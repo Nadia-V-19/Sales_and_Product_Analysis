@@ -2,7 +2,7 @@
 
 This project focuses on a comprehensive analysis of AdventureWorks' business metrics. Using SQL queries against an SQLite database, I examined the sales structure, identified the most profitable regions, and created a VIP client profile for optimizing business strategy.
 
-ADD VIZ
+![Dashboard Preview](dashboard.png)
 
 ---
 
