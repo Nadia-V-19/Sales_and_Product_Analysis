@@ -68,5 +68,14 @@ Tech Stack:
 ## Visualization & SQL
 
 [Interactive version of the dashboard](https://public.tableau.com/app/profile/nadezhda.vavilova/viz/AdventureWorksSalesAuditDashboard/AdventureWorksSalesAuditDashboard)
-LINK -> file with SQL queries
+
+[File with SQL queries](https://github.com/Nadia-V-19/Sales_and_Product_Analysis/edit/main/queries.sql)
+
+   Identify the top 5 most revenue-generating products.
+   
+   ![Top_Products Preview](top_products.png)
+
+   Calculated the projected min reserve.
+
+   
 
