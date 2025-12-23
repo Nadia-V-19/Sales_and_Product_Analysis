@@ -139,7 +139,7 @@ WHERE c.LastName IN ('Liu', 'Grande', 'Kurtz', 'Laszlo', 'Chor')
 GROUP BY soh.SalesOrderID
 ORDER BY NetAmount DESC;
 
--- Kevin Liu discount looks like anomaly it is too big, will check on him.
+-- Kevin Liu's discount looks like an anomaly; it is too big, so I will check him.
 
 SELECT
    SalesOrderID,
