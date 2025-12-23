@@ -77,5 +77,27 @@ Tech Stack:
 
    Calculated the projected min reserve.
 
+   ![Min_Stock Preview](min_stock.png)
+
+   Customer Segmentation and Location.
+
+   ![Customers_Location Preview](customers_location.png)
+
+   Promotion Effectiveness.
+
+   ![Effective_Discount Preview](effective_discount.png)
+
+   [Pproducts were sold](product_sold.png)
+   [Customers list](customers_list.png)
+   [Region and City](location.png)
+   [Discount VIP](discount_vip.png)
+   [Kevin Liu (deep look)]
+   
+
+   
+
+
+   
+
    
 
