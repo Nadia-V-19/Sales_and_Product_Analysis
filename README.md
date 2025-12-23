@@ -88,10 +88,14 @@ Tech Stack:
    ![Effective_Discount Preview](effective_discount.png)
 
    [Pproducts were sold](product_sold.png)
+   
    [Customers list](customers_list.png)
+   
    [Region and City](location.png)
+   
    [Discount VIP](discount_vip.png)
-   [Kevin Liu (deep look)]
+   
+   [Kevin Liu (deep look)](kevin_liu.png)
    
 
    
