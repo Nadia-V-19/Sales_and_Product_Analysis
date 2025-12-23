@@ -1,14 +1,18 @@
 # Identify the top 5 most revenue-generating products 
   
   -- I want to see if the product was sold more than once:
+	
   Select ProductID
   FROM SalesOrderDetail;
+
   -- Result: 542 rows returned, and the next step is the group all of products
 
  Select ProductID
  FROM SalesOrderDetail
  GROUP BY ProductID;
+
  -- Result: 142 rows returned. I can see now that different orders might have the same item.
+
 
  -- Group product, round amount, and sum amount for a list of 5 products, and change the column names.
 
