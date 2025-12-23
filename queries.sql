@@ -18,7 +18,7 @@
 
 SELECT 
     p.Name AS ProductName, 
-	  p.ProductNumber AS SKU,
+	p.ProductNumber AS SKU,
     ROUND(SUM(sod.LineTotal), 2) AS TotalRevenue
 FROM Product AS p
 JOIN SalesOrderDetail AS sod ON p.ProductID = sod.ProductID
