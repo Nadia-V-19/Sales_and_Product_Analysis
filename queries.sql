@@ -11,6 +11,7 @@
  -- Result: 142 rows returned, I can see now that different orders might have the same item.
 
  -- Group product, round amount, and sum amount for a list of 5 products, and change the column names.
+
 SELECT 
     p.Name AS ProductName, 
 	  p.ProductNumber AS SKU,
@@ -21,4 +22,19 @@ GROUP BY p.Name
 ORDER BY TotalRevenue DESC
 LIMIT 5;
 
-![Top_Products Preview](top_products.png)
+-- Count how many items were sold.
+
+SELECT 
+    p.Name AS ProductName, 
+	p.ProductNumber AS SKU,
+	ROUND(SUM(sod.LineTotal), 2) AS TotalRevenue,
+	SUM(sod.OrderQTY) AS TotalUnitsSold
+FROM Product AS p
+JOIN SalesOrderDetail AS sod ON p.ProductID = sod.ProductID
+GROUP BY p.Name
+ORDER BY TotalRevenue DESC
+LIMIT 5;
+
+-- 
+
+
