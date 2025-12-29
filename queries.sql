@@ -2,12 +2,12 @@
   
   -- I want to see if the product was sold more than once:
 	
-  Select ProductID
+  SELECT ProductID
   FROM SalesOrderDetail;
 
   -- Result: 542 rows returned, and the next step is the group all of products
 
- Select ProductID
+ SELECT ProductID
  FROM SalesOrderDetail
  GROUP BY ProductID;
 
